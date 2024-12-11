@@ -27,7 +27,7 @@ const Header = () => {
             className="rounded-circle"
             style={{ width: '30px', height: '30px' }}
           />
-          <a href="#" className="navbar-brand ms-2 text-white">Chosen Coffee</a>
+          <a href="#" className="navbar-brand ms-2 text-white">Chosen Cupspot</a>
         </div>
 
         {/* Navbar Toggler for mobile view */}

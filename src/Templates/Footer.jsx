@@ -1,13 +1,13 @@
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="footer">
+    <footer className="footer mt-5 mb-lg-5">
       <div className="footer-top">
         <div className="social">
           <div>
             <p>#COFFEEUNPLUGGED</p>
             <a href="https://www.instagram.com/summermooncoffee" target="_blank" rel="noopener noreferrer">
-              <img src="/ig.png" alt="Instagram" width={30} height={30} /> @ChosenCoffee
+              <img src="/ig.png" alt="Instagram" width={30} height={30} /> @ChosenCupspot
             </a>
           </div>
           <div>
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="newsletter">
-          <h3>CHOSEN COFFEE</h3>
+          <h3>CHOSEN CUPSPOT</h3>
           <p>NEWS & COFFEE-TALKS</p>
           <form>
             <input type="email" placeholder="Enter your email address" />
@@ -49,14 +49,12 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-      <p>&copy; {currentYear}, Chosen Coffee. All rights reserved.</p>
+      <p>&copy; {currentYear}, Chosen Cupspot. All rights reserved.</p>
         <div className="policies">
           <a href="/terms">TERMS & CONDITIONS</a>
           <a href="/privacy">PRIVACY POLICY</a>
         </div>
-        <div className="born-bred">
-          <img src="#" alt="Negros Oriental, Bayawan City" />
-        </div>
+    
       </div>
     </footer>
     

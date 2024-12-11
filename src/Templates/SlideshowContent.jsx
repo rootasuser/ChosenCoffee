@@ -12,7 +12,7 @@ const SlideshowContent = () => {
             textShadow: '1px 1px 2px rgba(0, 0, 0, 0.7)'
           }}
         >
-          Chosen Coffee's
+          Chosen Cupspot
         </h6>
       </div>
       <div className="mb-1">
